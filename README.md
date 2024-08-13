@@ -2,8 +2,6 @@
 
 This Power BI project aims to analyze sales data by integrating various data sources, performing data transformation, and leveraging Power BI's robust capabilities for data modeling and visualization. The end goal is to create an interactive and insightful report that showcases key metrics and trends in the company's sales performance.
 
-![Alt text](images\arc.jpg)
-
 ## Table of Contents
 1. Set up the Environment
 2. Import the Data into Power BI
@@ -15,6 +13,7 @@ This Power BI project aims to analyze sales data by integrating various data sou
 8. Create a Stores Map Page
 9. Cross-Filtering and Navigation
 10. Create Metrics for Users Outside the Company Using SQL
+11. Contact
 
 ## 1. Set up the Environment
 - Download Power BI desktop on Windows Machine
@@ -131,7 +130,7 @@ I created the following relationships to form a star schema:
 | Date       | Date         | Orders   | Order Date    | One-to-Many       |
 | Date       | Date         | Orders   | Shipping Date | One-to-Many       |
 
-![Alt text](images\relationship.JPG)
+<img src=".\images\relationship.JPG">
 
 - Creating a Separate Measures Table
 To maintain an organized and efficient data model, a separate Measures table was created for storing all DAX measures. The Measures Table serves as a centralized location for all measures, improving the organization and manageability of the data model.
@@ -220,7 +219,7 @@ Create the foundational structure of the Power BI report by setting up four main
 
 ## 5. Build the Customer Detail Page
 
-![Alt text](images\customer.JPG)
+<img src=".\images\customer.JPG">
 
 Adding card visuals, charts, and tables that provide detailed and actionable insights into customer behavior and performance.
 Detail Page
@@ -289,7 +288,7 @@ Create and configure a set of gauges, slicers, and advanced visuals to enhance t
 
 ## 6. Create an Executive Summary Page
 
-![Alt text](images\executive-summary.JPG)
+<img src=".\images\executive-summary.JPG">
 
 Create a comprehensive Executive Summary page in Power BI, consisting of key metrics and visualizations that provide a high-level overview of the business performance.
 
@@ -364,7 +363,7 @@ Create a comprehensive Executive Summary page in Power BI, consisting of key met
 
 ## 7. Create a Product  Quarterly Performance**:
 
-![Alt text](images\product.JPG)
+<img src=".\images\product.JPG">
 
    - **DAX Measures for Quarterly Targets**:
 
@@ -445,7 +444,7 @@ Create a comprehensive Executive Summary page in Power BI, consisting of key met
 
 ## 8. Create a Stores Map Page
 
-![Alt text](images\stores.JPG)
+<img src=".\images\stores.JPG">
 
 Enhance the Stores Map page with interactive visuals and create a drillthrough page for detailed store performance analysis, as well as a custom tooltip for quick insights.
 
@@ -508,7 +507,7 @@ Enhance the Stores Map page with interactive visuals and create a drillthrough p
 
      - This allows users to see each store's year-to-date profit performance against the profit target by simply hovering the mouse over a store on the map.
 
-![Alt text](images\drillsthrough.JPG)
+<img src=".\images\drillsthrough.JPG">
 
 ## 9. Cross-Filtering and Navigation
 
@@ -576,5 +575,10 @@ Connect to the Postgres database server hosted on Microsoft Azure using Visual S
 
     - Ensure that **SSL Encryption** is set to **enabled** in the connection settings.
 
+
+## 11. Contact
+
+**Name**: Shima Maleki
+**E-mail**: shimamaleki95@yahoo.com
 
 
