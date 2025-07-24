@@ -71,11 +71,11 @@ To address the above challenges, I followed a structured BI lifecycle consisting
 
 **🔹 1. Data Integration and Cleansing**
 
-- Integrated data from Azure SQL, Azure Blob Storage, local CSVs, and PostgreSQL.
+    - Integrated data from Azure SQL, Azure Blob Storage, local CSVs, and PostgreSQL.
 
-- Cleaned and standardized datasets by removing PII, filtering invalid rows, renaming columns, and handling duplicates.
+    - Cleaned and standardized datasets by removing PII, filtering invalid rows, renaming columns, and handling duplicates.
 
-- Combined multiple files (e.g., customer data) into unified tables with enhanced fields such as Full Name.
+    - Combined multiple files (e.g., customer data) into unified tables with enhanced fields such as Full Name.
 
 **🔹 2. Data Modeling**
 
@@ -85,51 +85,51 @@ To address the above challenges, I followed a structured BI lifecycle consisting
   <sub><strong>Figure: Data Model</strong> — Star schema linking Orders with Products, Customers, Stores, and Date</sub>
 </p>
 
-- Created a robust star schema linking fact and dimension tables (Orders, Products, Customers, Stores, Date).
+    - Created a robust star schema linking fact and dimension tables (Orders, Products, Customers, Stores, Date).
 
-- Designed a Date table with extended time intelligence columns for YTD, QTD, and forecasting.
+    - Designed a Date table with extended time intelligence columns for YTD, QTD, and forecasting.
 
-- Built a centralized Measures table for reusable DAX metrics (Revenue, Profit, Orders, etc.).
+    - Built a centralized Measures table for reusable DAX metrics (Revenue, Profit, Orders, etc.).
 
-- Implemented drill-down hierarchies for time and geography, enhancing analytical depth.
+    - Implemented drill-down hierarchies for time and geography, enhancing analytical depth.
 
 **🔹 3. Interactive Report Development**
 
-- Created four fully interactive report pages:
+    - Created four fully interactive report pages:
 
-- Executive Summary: High-level KPIs, trend analysis, and quarterly goal tracking.
+    - Executive Summary: High-level KPIs, trend analysis, and quarterly goal tracking.
 
-- Customer Detail Page: Segmentation, trend forecasting, and Top 20 customers by revenue.
+    - Customer Detail Page: Segmentation, trend forecasting, and Top 20 customers by revenue.
 
-- Product Detail Page: Profitability scatter plot, revenue area chart, and performance gauges.
+    - Product Detail Page: Profitability scatter plot, revenue area chart, and performance gauges.
 
-- Stores Map Page: Geo-visualization of store profit, with drill-through and tooltip support.
+    - Stores Map Page: Geo-visualization of store profit, with drill-through and tooltip support.
 
 **🔹 4. Interactivity & User Experience**
 
-- Applied cross-filtering settings to maintain a consistent and intuitive user experience.
+    - Applied cross-filtering settings to maintain a consistent and intuitive user experience.
 
-- Developed slicers and custom tooltips for dynamic filtering and context.
+    - Developed slicers and custom tooltips for dynamic filtering and context.
 
-- Designed a custom navigation sidebar for seamless page switching.
+    - Designed a custom navigation sidebar for seamless page switching.
 
 **🔹 5. External Metrics & SQL Integration**
 
-- Connected to a PostgreSQL server on Azure using Visual Studio Code and SQLTools.
+    - Connected to a PostgreSQL server on Azure using Visual Studio Code and SQLTools.
 
-- Executed SQL queries to pull in user activity metrics for external stakeholders.
+    - Executed SQL queries to pull in user activity metrics for external stakeholders.
 
 ## ✅ Outcomes & Business Impact
 
 This project delivered a scalable, self-service BI solution that allows business leaders and analysts to:
 
-- Monitor real-time KPIs such as revenue growth, profitability, and customer engagement.
+    - Monitor real-time KPIs such as revenue growth, profitability, and customer engagement.
 
-- Drill into store-level performance to identify high and low-performing regions.
+    - Drill into store-level performance to identify high and low-performing regions.
 
-- Forecast future trends in customer growth and product demand.
+    - Forecast future trends in customer growth and product demand.
 
-- Align team performance with quarterly and yearly targets using visual gauges and KPIs.
+    - Align team performance with quarterly and yearly targets using visual gauges and KPIs.
 
 The final report is designed for ease of use, performance, and visual clarity, helping stakeholders shift from reactive to proactive decision-making.
 
