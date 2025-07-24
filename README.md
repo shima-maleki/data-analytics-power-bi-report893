@@ -119,6 +119,8 @@ To address the above challenges, I followed a structured BI lifecycle consisting
 
     - Executed SQL queries to pull in user activity metrics for external stakeholders.
 
+The detailed workflow and instruction can be found in [WORKFLOW_INSTRUCTIONS.md](WORKFLOW_INSTRUCTIONS.md)
+
 ## ✅ Outcomes & Business Impact
 
 This project delivered a scalable, self-service BI solution that allows business leaders and analysts to:
@@ -141,7 +143,7 @@ The final report is designed for ease of use, performance, and visual clarity, h
 
 💼 Role: Power BI Developer | Data Analyst
 
-🔗 (LinkedIn)(https://www.linkedin.com/in/shmkx7/)
+🔗 [LinkedIn](https://www.linkedin.com/in/shmkx7/)
 
 
 If you're looking for a candidate who combines technical rigor with a sharp eye for business insights, I would love to bring this same level of energy and impact to your organization.
